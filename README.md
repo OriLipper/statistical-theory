@@ -153,31 +153,32 @@ The model explains 63% of the variability in house prices and performs reasonabl
 
 ## Repository Structure
 
-House-Price-India-Analysis/
-├── LICENSE
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── House Price India.csv
-│   └── House Price India_clean.csv
-├── notebooks/
-│   └── Statistical_Theory.ipynb
-├── results/
-│   └── figures/
-│       ├── bathrooms_distribution.png
-│       ├── bedrooms_distribution.png
-│       ├── cooks_distance.png
-│       ├── correlation_matrix.png
-│       ├── feature_correlations.png
-│       ├── living_area_boxplot.png
-│       ├── price_boxplot.png
-│       ├── price_by_bedrooms.png
-│       ├── price_distribution.png
-│       ├── price_vs_living_area.png
-│       ├── qq_plot_train.png
-│       └── residuals_vs_fitted_train.png
-└── scripts/
-    └── data_cleaning.py
+- House-Price-India-Analysis/
+  - LICENSE
+  - README.md
+  - requirements.txt
+  - data/
+    - House Price India.csv
+    - House Price India_clean.csv
+  - notebooks/
+    - Statistical_Theory.ipynb
+  - results/
+    - figures/
+      - bathrooms_distribution.png
+      - bedrooms_distribution.png
+      - cooks_distance.png
+      - correlation_matrix.png
+      - feature_correlations.png
+      - living_area_boxplot.png
+      - price_boxplot.png
+      - price_by_bedrooms.png
+      - price_distribution.png
+      - price_vs_living_area.png
+      - qq_plot_train.png
+      - residuals_vs_fitted_train.png
+  - scripts/
+    - data_cleaning.py
+
 
 
 
