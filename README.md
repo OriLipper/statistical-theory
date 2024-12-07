@@ -153,10 +153,31 @@ The model explains 63% of the variability in house prices and performs reasonabl
 
 ## Repository Structure
 
-. ├── data/ │ ├── House_Price_India.csv # Original dataset │ ├── House_Price_India_clean.csv # Cleaned dataset ├── notebooks/ │ ├── EDA_and_Statistical_Analysis.ipynb # Exploratory analysis and statistical testing │ ├── Regression_Modeling.ipynb # Regression modeling and diagnostics ├── results/ │ ├── figures/ # Saved plots │ │ ├── price_distribution.png │ │ ├── correlation_matrix.png │ │ ├── cooks_distance.png │ │ ├── qq_plot_train.png │ │ ├── residuals_vs_fitted_train.png ├── README.md # Project documentation (this file) ├── requirements.txt # Python dependencies
-
-markdown
-Copy code
+House-Price-India-Analysis/
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── data/
+│   ├── House Price India.csv
+│   └── House Price India_clean.csv
+├── notebooks/
+│   └── Statistical_Theory.ipynb
+├── results/
+│   └── figures/
+│       ├── bathrooms_distribution.png
+│       ├── bedrooms_distribution.png
+│       ├── cooks_distance.png
+│       ├── correlation_matrix.png
+│       ├── feature_correlations.png
+│       ├── living_area_boxplot.png
+│       ├── price_boxplot.png
+│       ├── price_by_bedrooms.png
+│       ├── price_distribution.png
+│       ├── price_vs_living_area.png
+│       ├── qq_plot_train.png
+│       └── residuals_vs_fitted_train.png
+└── scripts/
+    └── data_cleaning.py
 
 ---
 
